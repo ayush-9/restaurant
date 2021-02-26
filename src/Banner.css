@@ -1,0 +1,32 @@
+.banner {
+  background: url("https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/01/a0001540/img/basic/a0001540_main.jpg")
+    center center;
+  height: 50vh;
+  position: relative;
+}
+
+.banner__info {
+  background-color: black;
+  color: white;
+  padding-top: 25vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 300px;
+}
+
+.banner__info > h5 {
+  margin-top: 10px;
+}
+
+.banner__info2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.banner__info2 > img {
+  object-fit: contain;
+  height: 30px;
+  margin-left: 20px;
+}
